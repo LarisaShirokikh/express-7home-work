@@ -1,0 +1,7 @@
+node_modules
+dist
+.idea
+
+# Project exclude paths
+/versel.js
+/versel.js.map
