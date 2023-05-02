@@ -1,10 +1,8 @@
 import {inject, injectable} from "inversify";
 import {PostsService} from "../domain/posts-service";
-import {NextFunction, Request, Response} from "express";
+import {Request, Response} from "express";
 import {BloggersService} from "../domain/bloggers-service";
 import {CommentsService} from "../domain/comment-service";
-import {ObjectId} from "mongodb";
-import jwt from "jsonwebtoken";
 import {jwtService} from "../application/jwt-service";
 
 @injectable()
